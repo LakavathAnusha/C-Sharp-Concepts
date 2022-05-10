@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Employee : MonoBehaviour
+public abstract class Employee : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string companyName = "PurpleTalk";
+    public string employeeName;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public abstract void CalculateMonthlySalary();
+
 }
+
