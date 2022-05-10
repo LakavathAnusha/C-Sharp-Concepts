@@ -61,6 +61,12 @@
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\Employee.cs" />
     <Compile Include="Assets\FullTimeEmployee.cs" />
+    <Compile Include="Assets\DelegateDemo.cs" />
+    <Compile Include="Assets\ChangeCubeColorWithDelegate.cs" />
+    <Compile Include="Assets\Cube.cs" />
+    <Compile Include="Assets\SphereScript.cs" />
+    <Compile Include="Assets\ChangingCubePosition.cs" />
+    <Compile Include="Assets\MainScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
